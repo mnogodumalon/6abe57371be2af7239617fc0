@@ -1,0 +1,32 @@
+{
+  "KategorienDialog.tsx": {
+    "kategoriename": "z. B. Werkzeuge, Verschleißteile",
+    "beschreibung": "Kategorie-Übersicht, Richtlinien oder spezielle Hinweise..."
+  },
+  "LieferantenDialog.tsx": {
+    "firmenname": "z. B. Schmidt GmbH",
+    "ansprechpartner_vorname": "z. B. Klaus",
+    "ansprechpartner_nachname": "z. B. Müller",
+    "telefon": "z. B. +49 30 12345678",
+    "email": "z. B. kontakt@schmidt.de",
+    "webseite": "z. B. www.schmidt.de",
+    "strasse": "z. B. Industriestraße",
+    "hausnummer": "z. B. 42",
+    "plz": "z. B. 10115",
+    "ort": "z. B. Berlin"
+  },
+  "InventarDialog.tsx": {
+    "artikelname": "z. B. Schleifpapier K120",
+    "artikelnummer": "z. B. ART-2025-001",
+    "kategorie": "Kategorie wählen",
+    "lieferant": "Lieferant wählen",
+    "bestand": "z. B. 25",
+    "mindestbestand": "z. B. 10",
+    "einheit": "z. B. Stück, Liter, Kg",
+    "standort": "z. B. Regal C3, Schrank oben",
+    "einkaufspreis": "z. B. 12,50",
+    "zustand": "Welcher Zustand?",
+    "anschaffungsdatum": "Wann erworben?",
+    "notizen": "Pflege, Wartung, Besonderheiten, Lagerplatz-Details..."
+  }
+}

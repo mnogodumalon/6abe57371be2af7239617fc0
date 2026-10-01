@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "Kategorien": {
+      "placeholders_set": 2,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten-Entity (Kategoriename, Beschreibung). Keine Lookup-, Applookup- oder Number-Felder. Nichts berechenbar."
+    },
+    "Lieferanten": {
+      "placeholders_set": 10,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Adressbuch-Entity mit Kontaktdaten. Keine Lookup-, Applookup- oder Number-Felder. Reine Stammdaten, nichts berechenbar. fieldOrder bereits optimal mit row-Paaring (Vorname+Nachname, Straße+Hausnummer, PLZ+Ort)."
+    },
+    "Inventar": {
+      "placeholders_set": 11,
+      "defaults_keys": ["bestand", "mindestbestand", "anschaffungsdatum", "zustand"],
+      "computed_keys": ["_fehlmenge", "_lagerbestand_wert"],
+      "reason": "Inventarverwaltung mit Bestandsmengen und Einkaufspreisen. Berechnet: Fehlmenge (Bestand - Mindestbestand) und Lagerwert (Einkaufspreis × Bestand). Defaults: Bestand=1, Mindestbestand=10, Anschaffungsdatum=heute, Zustand=Neu. fieldOrder optimiert: Identifizierer → Stammdaten → Mengen → Preis → Details."
+    }
+  }
+}
